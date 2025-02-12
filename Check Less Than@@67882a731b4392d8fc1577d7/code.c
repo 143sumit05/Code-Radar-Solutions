@@ -6,7 +6,7 @@ int main(){
     if(a<b)
     print("True");
     else(
-        print("False")
+        print("False");
     )
     return 0;
 }
