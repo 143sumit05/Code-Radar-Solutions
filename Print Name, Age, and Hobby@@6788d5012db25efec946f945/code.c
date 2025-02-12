@@ -5,7 +5,7 @@ int main(){
     int b;
     char c[100];
     scanf("%s%d%s",a,&b,c);
-    print("Name: %s",a);
+    printf("Name: %s",a);
     printf("Age: %d",b);
     printf("Hobby: %s",c);
     return 0;
