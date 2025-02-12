@@ -5,6 +5,6 @@ int main(){
     if (a&&b>0)
     printf("True");
     else
-    prontf("False");
+    printf("False");
     return 0;
 }
