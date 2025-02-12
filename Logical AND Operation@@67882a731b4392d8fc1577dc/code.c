@@ -6,7 +6,7 @@ int main(){
     if (a<0||b<0)
     printf("False");
 
-    elseif ((a&b)>0)
+    elif ((a&b)>0)
     printf("True");
     else
     printf("False");
