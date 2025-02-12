@@ -3,5 +3,6 @@
 int main(){
 
 
-printf("Set")
+printf("Set");
+return 0;
 }
