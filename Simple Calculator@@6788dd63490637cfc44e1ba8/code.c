@@ -5,6 +5,6 @@ int main(){
     char c;
     scanf("%d%d%c",&a,&b,&c);
     if(c=='+')
-    printf("%d""%d",a+b);
+    printf("%d%d",a+b);
     return 0;
 }
