@@ -5,7 +5,7 @@ int main() {
     char c;
 
     // Input two integers and the operator
-    if (scanf("%d %d%c", &a, &b, &c) != 3) {
+    if (scanf("%d %d %c", &a, &b, &c) != 3) {
         printf("error\n");
         return 0;
     }
