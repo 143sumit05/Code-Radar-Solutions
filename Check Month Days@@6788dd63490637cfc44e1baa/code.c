@@ -28,6 +28,6 @@ printf("30");
 if(a==12)
 printf("31");
 else
-printf("Invalid")
+printf("Invalid");
 return 0;
 }
