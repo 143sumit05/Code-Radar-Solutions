@@ -1,13 +1,9 @@
-// Your code here...
 #include <stdio.h>
 int main(){
-    int i,a;
-    int c;
+    int i,a,mul;
     scanf("%d",&a);
-    for (i=1;i<=10;i++){
-        c= a*i;
-printf("%d x %d = %d\n",a,i,c);
-    }
-    
-
+   for(i=1;i<=10;i++)
+   mul = i*a;
+   printf("%d x %d = %d",a,i,mul);
+   return 0;
 }
