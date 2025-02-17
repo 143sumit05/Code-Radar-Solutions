@@ -8,5 +8,7 @@ int main(){
     else if (b<a)
     printf("Loss");
     return 0;
+    else
+    printf("No Profit No Loss")
 
 }
