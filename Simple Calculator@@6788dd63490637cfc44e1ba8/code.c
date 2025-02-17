@@ -8,8 +8,8 @@ int main() {
     // Input two integers and the operator
     if (c=='+')
     printf("%d",a+b);
-    // else   if (c=='-')
-    // printf("%d",a-b);
+    else if (c=='-')
+    printf("%d",a-b);
     // else   if (c=='*')
     // printf("%d",a*b);
     // else   if (c=='/')
