@@ -12,7 +12,7 @@ int main() {
     printf("%d",a-b);
     else   if (c=='*')
     printf("%d",a*b);
-  else if (c == '/') {
+    else if (c == '/') {
         if (b == 0) {
             printf("error\n");  // Handle division by zero
         } else {
