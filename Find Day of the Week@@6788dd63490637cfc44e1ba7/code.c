@@ -19,5 +19,5 @@ int main(){
     printf("Sunday");
     return 0;
     else
-    printf("Invalid")
+    printf("Invalid");
 }
