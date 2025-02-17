@@ -8,13 +8,13 @@ int main() {
     // Input two integers and the operator
     if (c=='+')
     printf("%d",a+b);
-    else   if (c=='-')
-    printf("%d",a-b);
-    else   if (c=='*')
-    printf("%d",a*b);
-    else   if (c=='/')
-    printf("%d",a/b);
-    else
+    // else   if (c=='-')
+    // printf("%d",a-b);
+    // else   if (c=='*')
+    // printf("%d",a*b);
+    // else   if (c=='/')
+    // printf("%d",a/b);
+    // else
     printf("error");
     return 0;
 }
