@@ -10,26 +10,25 @@ int main() {
         return 0;
     }
 
-    // Switch statement to perform the operation based on the operator
-    switch (c) {
-        case '+':
-            printf("%d\n", a + b);
-            break;
-        case '-':
-            printf("%d\n", a - b);
-            break;
-        case '*':
-            printf("%d\n", a * b);
-            break;
-        case '/':
-            if (b == 0) {
-                printf("error\n");  // Handle division by zero
-            } else {
-                printf("%d\n", a / b);
-            }
-            break;
-        default:
-            printf("error\n");  // Invalid operator case
+    // Check the operator using if-else statements
+    if (c == '+') {
+        printf("%d\n", a + b);
+    }
+    else if (c == '-') {
+        printf("%d\n", a - b);
+    }
+    else if (c == '*') {
+        printf("%d\n", a * b);
+    }
+    else if (c == '/') {
+        if (b == 0) {
+            printf("error\n");  // Handle division by zero
+        } else {
+            printf("%d\n", a / b);
+        }
+    }
+    else {
+        printf("error\n");  // Invalid operator case
     }
 
     return 0;
