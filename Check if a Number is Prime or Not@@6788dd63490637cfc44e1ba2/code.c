@@ -1,21 +1,13 @@
 #include <stdio.h>
-
-int main() {
-    int num;
-
-    
-    scanf("%d", &num);
-
-    // Check for prime manually with if-else
-    if (num == 2) {
-        printf("%d is a prime number.\n", num);  // 2 is prime
-    } else if (num < 2 || num % 2 == 0) {
-        printf("%d is not a prime number.\n", num);  // numbers less than 2 or even numbers are not prime
-    } else if (num == 3) {
-        printf("%d is a prime number.\n", num);  // 3 is prime
-    } else {
-        printf("%d is a prime number.\n", num);  // Treat all other numbers as prime for simplicity
-    }
-
+int main(){
+    int i,a, count;
+    scanf("%d",&a);
+    for (i=i;i<=a;i++)
+        if (n%i==0)
+        count++;
+    if(count==2)
+    printf("Prime");
+    else
+    printf("Not Prime");
     return 0;
 }
