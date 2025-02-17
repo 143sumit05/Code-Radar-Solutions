@@ -7,5 +7,7 @@ int main(){
     printf("%d",a);
     else if(b>a)
     printf("%d",b);
+    else if(a,b==0)
+    print("0");
     return 0;
 }
