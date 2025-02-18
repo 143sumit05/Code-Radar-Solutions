@@ -5,7 +5,7 @@ int main(){
     int count = 0;
     scanf("%d",&a);
     for (i=31;i<=a;i--){
-        if(i>>a)&1
+        if(a>>i)&1
         break;
         count++;
     }
