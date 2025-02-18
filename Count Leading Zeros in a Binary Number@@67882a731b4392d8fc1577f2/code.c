@@ -1,9 +1,9 @@
 // Your code here...
 #include <stdio.h>
 int main(){
-    int a;
+    unsigned int a;
     int count = 0;
-    scanf("%d",&a);
+    scanf("%u",&a);
     for (int i=31;i<=0;i--){
         if(a>>i)&1{
         break;
