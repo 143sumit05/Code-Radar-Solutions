@@ -4,7 +4,7 @@ int main(){
     int n;
   
     scanf("%d",&n);
-     int arr[n];
+    
     int count=0;
     int cou=0;
     for(int i=0;i<n;i++){
@@ -20,5 +20,5 @@ int main(){
         }
     }
 
-    printf(count," ",cou);
+    printf("%d%d"count," ",cou);
 }
