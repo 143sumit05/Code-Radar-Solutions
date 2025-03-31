@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int n;
-   
+   int arr[n];
     scanf("%d",&n);
     int count=0;
     int cou=0;
