@@ -19,5 +19,5 @@ int main(){
         }
     }
 
-    printf(count," ",cou);
+    //printf(count," ",cou);
 }
